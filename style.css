@@ -1,0 +1,14 @@
+html{
+    font-family: Arial;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bigbutton{
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 100px;
+    height: 60px;
+}

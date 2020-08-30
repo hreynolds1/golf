@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+    <title>Golf</title>
+    <h1 class="center">Golf</h1>
+    <div class="center">
+        <button onclick="startgame()" id="start" class="bigbutton">Start</button>
+    </div>
+    <h2 id="distance" class="center"></h2>
+    <h2 id="winmessage" class="center"></h2>
+    <h2 id="score"></h2>
+    <h2 id="parrating"></h2>
+    <h3 id="shotcount"></h3>
+    <h3 id="par"></h3>
+    <div id="clubs" hidden=true>
+        <h2>Select a club</h2>
+        <button id="driver" onclick="hitball('driver')" class="bigbutton">Driver</button>
+        <p style="display: inline-block;">(150m-225m)</p>
+        <br>
+        <button id="5iron" onclick="hitball('5iron')" class="bigbutton">5 Iron</button>
+        <p style="display: inline-block;">(75m-125m)</p>
+        <br>
+        <button id="wedge" onclick="hitball('wedge')" class="bigbutton">Wedge</button>
+        <p style="display: inline-block;">(25m-75m)</p>
+        <br>
+        <button id="putter" onclick="hitball('putter')" class="bigbutton">Putter</button>
+        <p style="display: inline-block;">(0m-25m)</p>
+    </div>
+    <script type="text/javascript" src="golf.js"></script>
+</html>
